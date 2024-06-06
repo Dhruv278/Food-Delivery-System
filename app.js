@@ -13,7 +13,9 @@ app.use(express.json({ limit: '10kb' }));
 
 
 
-
+app.use('/api/v1/test',(req,res)=>{
+    res.send("server is working");
+})
 app.use('/api/v1/auth',authRouter);
 app.use('/api/v1/restaurant',restaurantRouter);
 app.use('/api/v1/order',orderRouter);
