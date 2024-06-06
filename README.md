@@ -1,18 +1,18 @@
 
 # Domato - Online Food Ordering System (Backend)
 
-Welcome to Domato! This backend application serves as the core system for managing  orders, restaurant data, and user interactions in our online pizza ordering platform.
+Welcome to Domato! This backend application serves as the core system for managing  orders, restaurant data, and user interactions in our online Food ordering platform.
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/pizza-palace-backend.git
+   git clone [https://github.com/your-username/pizza-palace-backend.git](https://github.com/Dhruv278/Food-Delivery-System.git)
    ```
 
 2. **Install dependencies:**
    ```bash
-   cd pizza-palace-backend
+   cd Food-Delivery-System
    npm install
    ```
    
@@ -153,4 +153,4 @@ This collection of APIs empowers restaurant owners to manage restaurant-related 
 Feel free to contribute by opening issues or submitting pull requests.
 ```
 
-Copy the above markdown content and paste it directly into your README.md file in your GitHub repository for the backend of Pizza Palace online pizza ordering system. Adjust as needed for any specific details or formatting preferences.
+Copy the above markdown content and paste it directly into your README.md file in your GitHub repository for the backend of Domato online Food ordering system. Adjust as needed for any specific details or formatting preferences.
