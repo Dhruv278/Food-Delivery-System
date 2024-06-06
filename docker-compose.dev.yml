@@ -1,0 +1,18 @@
+version: '3'
+services:
+  node-app:
+    build: 
+      context: .
+      args:
+        - NODE_ENV=DEVELOPMENT
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    env_file:
+      - .env
+    command: npm run start
+  mongo:
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=ADMIN
+      - MONGO_INITDB_ROOT_PASSWORD=ADMIN123
+  
